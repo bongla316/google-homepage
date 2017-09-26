@@ -7,14 +7,36 @@ html, body{
 	height: 100%
 }
 
+header {
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
 li {
 	display: inline;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin: 10px;
-	border-style: solid;
+	font-family: 'Product Sans', Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 13px;
+	color: #6f7277;
+}
+
+#sign-in {
+	border-style: none;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 2px;
+	background-color: #4390ef;
+	color: #ffffff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 20px;
+	font-weight: bold;
 }
 
 ul {
@@ -59,7 +81,7 @@ button:hover {
 
 .center-page {
 	position: relative;
-	top: 35%;
+	top: 25%;
 	transform: translateY(-50%);
 }
 
@@ -69,7 +91,7 @@ button:hover {
 
 .logo {
 	margin-bottom: 20px;
-	margin-top: 40px;
+	margin-top: 0px;
 }
 
 #search-box {
@@ -79,6 +101,9 @@ button:hover {
 
 input {
 	font-size: 20px;
+	border: none;
+	box-shadow: 0px 1px 5px #888888;
+
 }
 
 
